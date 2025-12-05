@@ -7,7 +7,7 @@ A modern, responsive Currency Converter built with pure HTML, CSS, and JavaScrip
 ![Currency Converter Banner](image.png)
 
 ## Supported Currencies
-Powered by Frankfurter API – includes all major currencies:
+Powered by Frankfurter API – includes all major currencies:  
 USD, EUR, GBP, JPY, PHP, INR, CAD, AUD, CHF, CNY, KRW, BRL, MXN, And many more…
 
 ## API Used
