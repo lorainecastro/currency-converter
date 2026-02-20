@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="bg-circle bg-circle-1"></div>
     <div class="bg-circle bg-circle-2"></div>
@@ -17,7 +19,8 @@
         <div class="header">
             <div class="brand-icon">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor">
-                    <path d="M440 96c0-35.3-57.3-64-128-64S184 60.7 184 96s57.3 64 128 64 128-28.7 128-64zm0 80c0 35.3-57.3 64-128 64s-128-28.7-128-64v48c0 35.3 57.3 64 128 64s128-28.7 128-64v-48zm0 112c0 35.3-57.3 64-128 64s-128-28.7-128-64v48c0 35.3 57.3 64 128 64s128-28.7 128-64v-48zM80 160c-44.2 0-80 21.5-80 48s35.8 48 80 48 80-21.5 80-48-35.8-48-80-48zm80 80c0 26.5-35.8 48-80 48S0 266.5 0 240v48c0 26.5 35.8 48 80 48s80-21.5 80-48v-48zm0 80c0 26.5-35.8 48-80 48S0 346.5 0 320v48c0 26.5 35.8 48 80 48s80-21.5 80-48v-48z"/>
+                    <path
+                        d="M440 96c0-35.3-57.3-64-128-64S184 60.7 184 96s57.3 64 128 64 128-28.7 128-64zm0 80c0 35.3-57.3 64-128 64s-128-28.7-128-64v48c0 35.3 57.3 64 128 64s128-28.7 128-64v-48zm0 112c0 35.3-57.3 64-128 64s-128-28.7-128-64v48c0 35.3 57.3 64 128 64s128-28.7 128-64v-48zM80 160c-44.2 0-80 21.5-80 48s35.8 48 80 48 80-21.5 80-48-35.8-48-80-48zm80 80c0 26.5-35.8 48-80 48S0 266.5 0 240v48c0 26.5 35.8 48 80 48s80-21.5 80-48v-48zm0 80c0 26.5-35.8 48-80 48S0 346.5 0 320v48c0 26.5 35.8 48 80 48s80-21.5 80-48v-48z" />
                 </svg>
             </div>
             <h1>Currency Converter</h1>
@@ -152,7 +155,7 @@
             }, 3000);
         }
 
-        document.addEventListener('mousemove', function(e) {
+        document.addEventListener('mousemove', function (e) {
             const x = e.clientX / window.innerWidth;
             const y = e.clientY / window.innerHeight;
 
@@ -171,4 +174,5 @@
         document.querySelector('.swap-icon').addEventListener('click', swapCurrencies);
     </script>
 </body>
+
 </html>
